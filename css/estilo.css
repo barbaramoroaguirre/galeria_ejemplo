@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ;
+    gap: 10px;
+}
+
+.galeria a,
+.galeria img{
+    display: block;
+    width: 100%;
+}

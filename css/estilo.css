@@ -23,3 +23,32 @@ body{
     display: block;
     width: 100%;
 }
+.galeria img{
+    filter: grayscale(80%);
+    transition: filter 1s;
+}
+.galeria a:hover img{
+    filter: grayscale(0%);
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visible{
+
+}
+.modal button{
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 4em;
+    margin: 0 20px;
+}

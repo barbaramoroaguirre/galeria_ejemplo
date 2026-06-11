@@ -37,12 +37,15 @@ body{
     height: 100dvh;
     width: 100%;
     background-color: rgba(0,0,0,0.7);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+    
+
+
 }
 .visible{
-
+    display: flex;
 }
 .modal button{
     display: block;
